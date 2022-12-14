@@ -53,3 +53,6 @@ with open('coef.txt', 'w', encoding='utf-8') as m:
             m.write(f'{coef[i]}x + ')
         elif k - i == 0:
             m.write(f'{coef[i]} = 0')
+
+
+
